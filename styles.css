@@ -130,8 +130,7 @@
   /* About Us / Why Choose Us Section */
   .about-us{
     position: relative;
-    height: 100vh;
-    background-image: url(https://papers.co/wallpaper/papers.co-nn65-light-blub-dark-blue-29-wallpaper.jpg); /* Replace with your background image */
+    height: 100vh; 
     background-size: cover;
     background-position: left center; /* Align background to the left */
     background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
