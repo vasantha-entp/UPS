@@ -581,7 +581,7 @@ body {
   .footer h3 {
     margin-bottom: 15px;
     font-size: 18px;
-    color: #0054f094; /* Accent color */
+    color: #f6f8fb94; /* Accent color */
   }
   
   /* Footer Links */
@@ -808,7 +808,7 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background-color: #007bff;
+    background-color: #3e3f3f;
     color: #fff;
   }
   
@@ -1172,7 +1172,7 @@ body {
 /* Card Text Styles */
 .card h3 {
   margin-top: 0;
-  color: #00bcd4; /* Accent color for card titles */
+  color: #03dac6; /* Accent color for card titles */
 }
 
 .card ul {
