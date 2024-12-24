@@ -1124,4 +1124,101 @@ body {
   }
 }
 
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
+}
+
+#services {
+  padding: 20px;
+  text-align: center;
+  background-color: #1e1e1e; /* Slightly lighter dark for the section */
+  border-radius: 8px;
+}
+
+.service-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00bcd4; /* Bright accent color for the title */
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Card Styles */
+.card {
+  background-color: #2b2b2b; /* Dark gray for cards */
+  border: 1px solid #444; /* Subtle border */
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+  color: #ffffff; /* Default light text */
+  cursor: pointer;
+}
+
+/* Card Text Styles */
+.card h3 {
+  margin-top: 0;
+  color: #00bcd4; /* Accent color for card titles */
+}
+
+.card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Hover Effect */
+.card:hover {
+  background-color: #ffffff; /* Light background on hover */
+  color: #000000; /* Dark text on hover for readability */
+  border-color: #00bcd4; /* Accent border for visibility */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow */
+  transform: scale(1.05); /* Slight scale effect on hover */
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Active State (on click) */
+.card:active {
+  background-color: #ffffff; /* Change background to white */
+  color: #000000; /* Change text to black for readability */
+  border-color: #00bcd4; /* Accent border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+}
 
